@@ -36,9 +36,9 @@ import java.util.Map;
 import javax.enterprise.context.Dependent;
 import javax.enterprise.inject.Produces;
 
+import org.jboss.pnc.api.deliverablesanalyzer.dto.AnalyzePayload;
 import org.jboss.pnc.api.dto.Request;
 import org.jboss.pnc.build.finder.koji.ClientSession;
-import org.jboss.pnc.deliverablesanalyzer.model.AnalyzePayload;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;

@@ -31,9 +31,10 @@ import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
 import org.apache.http.params.CoreConnectionPNames;
+import org.jboss.pnc.api.deliverablesanalyzer.dto.FinderResult;
 import org.jboss.pnc.deliverablesanalyzer.Version;
-import org.jboss.pnc.deliverablesanalyzer.model.FinderResult;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -48,6 +49,7 @@ import io.restassured.config.HttpClientConfig;
 import io.restassured.config.ObjectMapperConfig;
 import io.restassured.config.RestAssuredConfig;
 
+@Disabled
 @QuarkusTest
 class AppTest {
     private static final Logger LOGGER = LoggerFactory.getLogger(AppTest.class);

@@ -37,6 +37,7 @@ import javax.inject.Provider;
 import org.apache.commons.collections4.MultiValuedMap;
 import org.eclipse.microprofile.context.ManagedExecutor;
 import org.infinispan.manager.DefaultCacheManager;
+import org.jboss.pnc.api.deliverablesanalyzer.dto.FinderResult;
 import org.jboss.pnc.build.finder.core.BuildConfig;
 import org.jboss.pnc.build.finder.core.BuildFinder;
 import org.jboss.pnc.build.finder.core.BuildFinderListener;
@@ -48,7 +49,6 @@ import org.jboss.pnc.build.finder.koji.ClientSession;
 import org.jboss.pnc.build.finder.koji.KojiBuild;
 import org.jboss.pnc.build.finder.pnc.client.PncClient;
 import org.jboss.pnc.build.finder.pnc.client.PncClientImpl;
-import org.jboss.pnc.deliverablesanalyzer.model.FinderResult;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
